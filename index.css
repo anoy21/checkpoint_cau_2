@@ -1,0 +1,65 @@
+.pokedex {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .type {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .height,
+  .weight {
+    margin-bottom: 5px;
+  }
+  
+  .bio {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+body {
+    color: white;
+    background-color: red;
+}
+
+.nd {
+    color: aqua;
+}
+
+#searchInput{
+    width: 250px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+#searchInput:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-bottom: white solid 1px;
+}
+
+#searchButton{
+    outline: none;
+    border: none;
+    background-color: aqua;
+    color: grey;
+    width: 70px;
+    transition: 0.5s;
+}
+
+#searchButton:hover{
+border-bottom: white 1px solid;
+transition: 0.5s;
+transform: scale(1.1);
+}
